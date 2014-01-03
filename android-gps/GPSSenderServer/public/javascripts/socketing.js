@@ -1,4 +1,4 @@
-var socket = io.connect('http://damp-inlet-1961.herokuapp.com/');
+var socket = io.connect('http://frozen-falls-2431.herokuapp.com');
 socket.on('coords', function (data) {
     console.log(data);
     addLatLng(data.latitude, data.longitude);
