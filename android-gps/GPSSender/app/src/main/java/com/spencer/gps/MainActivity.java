@@ -86,7 +86,7 @@ public class MainActivity extends Activity{
 
             HttpClient httpclient = new DefaultHttpClient();
             // HttpPost httppost = new HttpPost("http://192.168.1.110:3000/coord");
-            HttpPost httppost = new HttpPost("http://damp-inlet-1961.herokuapp.com/coord");
+            HttpPost httppost = new HttpPost("http://frozen-falls-2431.herokuapp.com/coord");
 
             try {
                 // Add your data
